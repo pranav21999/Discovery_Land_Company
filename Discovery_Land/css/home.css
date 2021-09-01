@@ -1,0 +1,134 @@
+.headcontainer{
+    height: 100vh;
+    width: 100vw;
+}
+.header-video{
+     object-fit: cover;
+    width:100%;
+    height:100%; 
+}
+ .nevigation{
+     display: flex;
+    flex-direction: row; 
+    position: relative;
+    bottom: 90%;
+    justify-content: space-around;   
+    color: white; 
+
+}
+.nevigationright{
+     display: flex;
+    /*border: 2px solid black;*/
+    flex-direction: row;     
+}
+
+/* .nevigationleft{
+       flex-grow: 1;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif; 
+} */
+
+.text1{
+    font-size: 25px;
+}
+
+.text2{
+font-size: 14px;
+}
+
+.item{
+    /* display: flex; */
+    margin-left: 45px;
+}
+
+.text3{
+     position: relative;
+    font-size: 60px;
+    bottom: 60%;
+    left:20% ;
+    max-width: 20%; 
+    color: white;  
+}
+/* footer */
+.footercontainer{
+  display: flex;
+  justify-content: space-around;
+    width: 100vw;
+    height: 65vh;
+    border: 2px solid white;
+    background-color:#161f1e;
+    color: white;
+
+}
+
+.footermenu{
+position: relative;
+font-size: 20px;
+margin-top: 8%;
+}
+
+.footerimage{
+    height: 80px;
+    width: 65px;
+}
+.footerlogo{
+    margin-top: 8%;
+}
+
+
+/*  images   */
+.img-section {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* border: 2px solid red; */
+    
+}
+
+.img-item {
+    width: 33.33%;
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+    font-size: 20px;
+}
+
+#img-experience {
+    background-image: url(../Assets/HomePage/Experiences.jpg);
+     background-size: cover; 
+
+}
+
+#img-lifestyle {
+    background-image: url(../Assets/HomePage/lifestyle.jpg);
+     background-size: cover; 
+    }
+
+#img-wellness {
+    background-image: url(../Assets/HomePage/wellness.jpg);
+     background-size: cover; 
+}
+
+/* .footermenu2{
+    position: relative;
+    top: 25%;
+    left: 720%;
+    font-size: 20px;
+    }
+
+.footermenu3{
+        position: relative;
+        top: 25%;
+        left: 820%;
+        font-size: 20px;
+        } */
+    
+        /* .footerlogo{
+            position: relative;
+            margin-top: 7%;
+            height: 5%;
+            width: 5%;
+        
+        }
+         */
