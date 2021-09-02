@@ -1,0 +1,290 @@
+.headcontainer {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.image_background {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.nevigation {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 90%;
+    justify-content: space-around;
+    color: white;
+}
+
+.nevigationright {
+    display: flex;
+    /*border: 2px solid black;*/
+    flex-direction: row;
+}
+
+.text1 {
+    font-size: 25px;
+}
+
+.text2 {
+    font-size: 14px;
+}
+
+.item {
+    /* display: flex; */
+    margin-left: 45px;
+}
+
+.text3 {
+    position: relative;
+    font-size: 60px;
+    bottom: 60%;
+    left: 20%;
+    max-width: 20%;
+    color: white;
+}
+
+/* corousel 1 */
+
+.image-description {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 180vh;
+    border: 2px solid black;
+    background-color: #f3f3f3;
+}
+
+.heading-image {
+    width: 100%;
+    height: 15%;
+    /* border: 3px red solid;*/
+    font-size: 30px;
+    position: relative;
+}
+
+.headcontent {
+    margin: 5%;
+    /* margin-top: 2%;
+        margin-left: 3%; */
+}
+
+.imagecontainer {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+/* .image{
+        border: solid 4px blue;
+        height: 90%;
+        width: 55%;
+        margin-left: 8%;
+    }  */
+
+#carouselExampleControls {
+    height: 90%;
+    width: 75%;
+    margin-left: 8%;
+}
+
+.carousel-inner, .carousel-item, #single-img {
+    height: 100%;
+}
+
+.imageinfo {
+    height: 75%;
+    width: 70%;
+    position: relative;
+    background-color: white;
+    margin: 5%;
+    right: 9%;
+    display: block;
+    flex-direction: column;
+}
+
+.news {
+    /* width: 100%; */
+    color: grey;
+    margin: 8%;
+}
+
+.img-para {
+    /* height: 20%; */
+    width: 100%;
+    margin: 8%;
+    font-size: 30px;
+    color: black;
+}
+
+.img-para2 {
+    align-self: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 15px;
+    color: grey;
+    padding: 0 5% 5% 5%;
+}
+
+.carousel-buttons {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.button {
+    text-align: center;
+}
+
+/* .button{
+    height: 100%;
+    width: 100%;
+    
+    } */
+
+/* corousel 2 */
+
+/* contain all   */
+
+.main-section {
+    width: 100vw;
+}
+
+.heading {
+    font-size: 2em;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.section-2 {
+    padding-left: 5%;
+    height: 90%;
+    width: 100%;
+    /* border: 4px solid blue; */
+}
+
+.info {
+    display: flex;
+    /* border: 4px solid green; */
+    flex-wrap: wrap;
+    height: 120vh;
+    width: 100%;
+}
+
+#carousel-desc-container {
+    width: 35%;
+    position: relative;
+    background-color: white;
+    right: 10%;
+    margin: 5% 0;
+}
+
+#carousel-buttons {
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    /* border: 3px solid orange; */
+    justify-content: center;
+}
+
+#carouselExampleControls, .carousel-inner, .carousel-item, #single-img {
+    height: 100%;
+}
+
+#carousel-buttons {
+    display: flex;
+    padding: 4%;
+    font-size: 2em;
+    padding-top: 10%;
+}
+
+.cards-section {
+    width: 50%;
+    height: 60%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 5%;
+}
+
+.card-info, .card-button {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+
+.card-info {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+
+.card-button {
+    height: 20%;
+    width: 30%;
+    /* border: 5px solid green; */
+}
+
+.button-item {
+    height: 100%;
+    background-color: transparent;
+}
+
+/* .button-item:hover {
+ } */
+
+.card-context {
+    font-size: 1em;
+    height: 60%;
+    line-height: 1.2;
+}
+
+.card-heading {
+    height: 40%;
+}
+
+.card-context {
+    opacity: 0.6;
+}
+
+.card-quotation {
+    font-size: 0.7em;
+    height: 30%;
+}
+
+/*footer */
+
+.footercontainer{
+    display: flex;
+    justify-content: space-around;
+      width: 100vw;
+      height: 65vh;
+      border: 2px solid white;
+      background-color:#161f1e;
+      color: white;
+  
+  }
+  
+.footermenu{
+    position: relative;
+    font-size: 20px;
+    margin-top: 8%;
+    }
+    
+    .footerimage{
+        height: 80px;
+        width: 65px;
+    }
+    .footerlogo{
+        margin-top: 8%;
+    }
+    
+    
