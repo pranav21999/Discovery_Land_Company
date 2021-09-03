@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid green; */
+}
+
+/* Css for header part: it contains video, navbar and text "Discover your work" */
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border: 2px solid blue; */
+}
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.navbar-container {
+    display: flex;
+    position: relative;
+    bottom: 90%;
+    width: 100%;
+    /* border: 2px solid; */
+    justify-content: space-evenly;
+}
+
+.logo-text1 {
+    font-size: 2em;
+}
+
+.logo-text2 {
+    font-size: 0.8em;
+}
+
+.navLink {
+    display: flex;
+    font-size: 1.2em;
+    /* border: 1px solid red; */
+}
+
+.nav-item {
+    margin-right: 35px;
+    margin-top: 8px;
+}
+
+.sometext {
+    position: relative;
+    bottom: 65%;
+    left: 25%;
+    max-width: 25%;
+    font-size: 80px;
+}
+
+.navlink-anchor, .navlink-anchor:hover {
+    color: white;
+    text-decoration: none;
+}
+/* second section */
+
+
+.sections-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    /* border: 10px solid gray; */
+}
+
+.intro {
+    padding: 0 15%;
+    padding-top: 7%;
+    width: 100%;
+    /* border: 5px solid red; */
+    font-size: 2.5em;
+    text-align: center;
+    color: #111111;
+}
+
+.white-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 5% 0;
+    /* border: 10px solid orange; */
+}
+
+.white-section-text {
+    width: 50%;
+    color: black;
+    padding: 10%;
+    /* border: 5px solid black; */
+}
+
+.white-section-text-heading {
+    font-size: 2em;
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.white-section-text-para {
+    color: #777777;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.white-section-img-container {
+    /* border: 5px solid black; */
+    width: 50%;
+    margin: 5%;
+    margin-top: 0;
+}
+
+.white-section-img{
+    width: 100%;
+    height: 100%;
+}
+
+.grey-sections {
+    /* border: 10px solid red; */
+    background-color: #f3f3f3;
+    padding-top: 15vh;
+}
+
+.section-figure {
+    padding: 0;
+    margin: 0;
+    width: 65%;
+    /* border: 10px solid red; */
+    position: relative;
+    z-index: 2;
+}
+
+.section, .mid-section {
+    /* border: 10px solid green; */
+    display: flex;
+    height: 140vh;
+    position: relative;
+}
+
+.section-img {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 8%;
+    width: 100%;
+    height: 80%;
+}
+
+.img-bg {
+    height: 500px;
+    width: 95%;
+    background-image: url(../assets/images/experiences_images/Golf_bg_img.jpg);
+    /* border: 10px solid brown; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: absolute;
+    top: 37%;
+    left: 11%;
+    z-index: 1;
+}
+
+.section-img-info {
+    /* border: 5px solid blue; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 10%;
+    top: 18%;
+    width: 40%;
+    height: 50%;
+    z-index: 3;
+    padding: 5%;
+    background-color: white;
+}
+
+.section-img-heading {
+    font-size: 2em;
+}
+
+.section-img-para {
+    color: #777777;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.section-img-btn {
+    height: 15%;
+    width: 35%;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.section-img-btn:hover {
+    border: 2px solid black;
+}
+
+
+.mid-section {
+    display: flex;
+    justify-content: right;
+}
+
+.mid-section-figure {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 65%;
+    /* right: 7%; */
+    z-index: 2;
+}
+
+.mid-section-img-info {
+    /* border: 5px solid blue; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 10%;
+    top: 18%;
+    width: 40%;
+    height: 50%;
+    z-index: 3;
+    padding: 5%;
+    background-color: white;
+}
+
+.mid-img-bg {
+    height: 500px;
+    width: 95%;
+    background-image: url(../assets/images/experiences_images/Golf_bg_img.jpg);
+    /* border: 10px solid brown; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: absolute;
+    top: 37%;
+    right: 12%;
+    z-index: 1;
+}
+
+.our_world-section {
+    /* border: 10px solid gray; */
+    height: 70vh;
+    width: 100vw;
+    background-image: url('../Assets/experience/img_5dabbd1a34149dcaed83515ff1526a0f.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.our-world-txt {
+    font-size: 2.5em;
+}
+
+.our-world-btn {
+    background-color: transparent;
+    color: white;
+    width: 10%;
+    margin-top: 3%;
+    height: 10%;
+    border: 1px solid white;
+}
+
+.our-world-btn:hover {
+    border: 2px solid white;
+}

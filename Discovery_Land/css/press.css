@@ -1,0 +1,97 @@
+
+.main{
+display: flex;
+flex-direction: column;
+width: 100vw;
+height: 180vh;
+border: 2px solid black;
+background-color: #f3f3f3;
+}
+
+.heading{
+    width: 100%;
+    height: 15%;
+    /* border: 3px red solid;*/
+   font-size: 30px; 
+   position: relative;   
+}
+
+.headcontent{
+    margin: 5%;
+    /* margin-top: 2%;
+    margin-left: 3%; */
+}
+
+.imagecontainer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+
+}
+ /* .image{
+    border: solid 4px blue;
+    height: 90%;
+    width: 55%;
+    margin-left: 8%;
+}  */
+
+ #carouselExampleControls{    
+    height: 90%;
+    width: 75%;
+    margin-left: 8%;
+} 
+
+.carousel-inner,.carousel-item,#single-img{
+    height: 100%;
+}
+
+.imageinfo{
+    height:75%;
+    width: 70%;
+    position: relative;
+    background-color: white;
+    margin: 5%;
+    right: 9%;
+    display: block;
+    flex-direction: column;    
+}
+
+.news{
+/* width: 100%; */
+color: grey;
+margin: 8%;
+}
+
+.img-para{
+    /* height: 20%; */
+    width: 100%;
+margin: 8%;
+font-size: 30px;
+color: black;
+}
+
+.img-para2{    
+align-self: center;
+margin-left: 4%;
+margin-right: 4%;
+font-size: 15px;
+color: grey;
+padding: 0 5% 5% 5% ;
+}
+
+.carousel-buttons{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    font-size: 2em;
+    justify-content: center;
+}
+.button{
+text-align: center;
+}
+
+/* .button{
+height: 100%;
+width: 100%;
+
+} */
